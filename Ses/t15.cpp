@@ -5,5 +5,18 @@ using namespace std;
 
 void task15()
 {
+	int h, h1;
+	int b, b1;
+	int p;
+	int p1 = { 0 };
+	int summ = { 0 };
 
+	cout << "¬ведите высоту первого треугольника" << endl;
+	cin >> h;
+
+	cout << "¬ведите длину основани€ треугольника" << endl;
+	cin >> b;
+	
+	p = 1 / 2 * h * b;
+	cout << "ѕлощадь первого треугольника = " << p << endl;
 }
