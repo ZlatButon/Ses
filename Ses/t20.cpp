@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void task20(int &a, int &b)
+void task20 ()
 {
 	int arr[6] = { 1,2,3,4,5,6 };
 
@@ -18,7 +18,7 @@ void task20(int &a, int &b)
 		arr[i] = t;
 	}
 
-	cout << "Output:" << endl;
+	cout << "\n\nOutput:" << endl;
 	for (int i = 0; i < 6; i++)
 	{
 		cout << " " << arr[i];
