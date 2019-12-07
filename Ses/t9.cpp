@@ -3,8 +3,7 @@
 
 using namespace std;
 
-void task9()
-{
+void task9() {
 	int n;
 	int decision;
 	int i = 1;
@@ -12,8 +11,7 @@ void task9()
 	cout << "Insert the number" << endl;
 	cin >> n;
 
-	while (i * i <= n)
-	{
+	while (i * i <= n) {
 		i++;
 	}
 	decision = i * i;
