@@ -3,22 +3,21 @@
 
 using namespace std;
 
-void task1()
-{
+void task1() {
 	int n;
-	int	summ{ 0 };
+	int summ{
+	  0
+	};
 
 	cout << "Введите n: ";
 	cin >> n;
 
-	while (n < 0)
-	{
+	while (n < 0) {
 		cout << "Вы ввели не натуральное число" << endl;
 		cin >> n;
 	}
 
-	for (int i = 2; i < n + 2; i += 2)
-	{
+	for (int i = 2; i < n + 2; i += 2) {
 		if (n % i == 0)
 			summ += i;
 	}
