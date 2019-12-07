@@ -25,22 +25,5 @@ void task4()
 		{
 			cout << "number " << i << " not divided by " << n << endl;
 		}
-
-		while (i > 0)
-		{
-			if (i % 10 == n)
-			{
-				n = n / 10;
-			}
-
-			if (n > 0)
-			{
-				cout << "����� " << n << " ������������ � ����� " << i << endl;
-			}
-			else
-			{
-				cout << "����� " << n << " ����������� � ����� " << i << endl;
-			}
-		}
 	}
 }
