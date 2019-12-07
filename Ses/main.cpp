@@ -8,10 +8,9 @@ void task9(), task10(), task11(), task12();
 void task13(), task14(), task15(), task16();
 void task17(), task18(), task19(), task20();
 void task21(), task22(), task23(), task24();
-void task25(), task26(), test123();
+void task25(), task26();
 
-int main()
-{
+int main() {
 	setlocale(LC_ALL, "rus");
 
 	int assignment;
@@ -19,14 +18,12 @@ int main()
 	cout << "Введите номер задания" << endl;
 	cin >> assignment;
 
-	while (assignment < 1 || assignment > 33)
-	{
+	while (assignment < 1 || assignment > 33) {
 		cout << "Вы ввели неверный номер задания" << endl;
 		cin >> assignment;
 	}
 
-	switch (assignment)
-	{
+	switch (assignment) {
 	case 1:
 		task1();
 		break;
@@ -129,9 +126,6 @@ int main()
 
 	case 26:
 		task26();
-		break;
-	case 33:
-		test123();
 		break;
 	}
 
