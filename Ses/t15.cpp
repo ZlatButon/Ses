@@ -3,8 +3,7 @@
 
 using namespace std;
 
-void task15()
-{
+void task15() {
 	int a, b, c;
 
 	cout << "Enter the first side of the triangle" << endl;
