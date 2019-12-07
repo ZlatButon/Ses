@@ -8,12 +8,12 @@ void task5()
 	int n;
 	int p = 0;
 
-	cout << "Введите число n" << endl;
+	cout << "Enter number n" << endl;
 	cin >> n;
 	
 	while (n < 1)
 	{
-		cout << "Вы ввели не натуральное число" << endl;
+		cout << "You entered a non-natural number" << endl;
 		cin >> n;
 	}
 
