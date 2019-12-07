@@ -3,22 +3,19 @@
 
 using namespace std;
 
-void task5()
-{
+void task5() {
 	int n;
 	int p = 0;
 
 	cout << "Enter number n" << endl;
 	cin >> n;
-	
-	while (n < 1)
-	{
+
+	while (n < 1) {
 		cout << "You entered a non-natural number" << endl;
 		cin >> n;
 	}
 
-	for (int i = 2; i < 2 * n; i + 2)
-	{
+	for (int i = 2; i < 2 * n; i + 2) {
 		p = i * 2 * n;
 
 		cout << p;
