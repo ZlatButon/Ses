@@ -4,8 +4,8 @@ using namespace std;
 
 void task6()
 {
-	int a, value;
-	int n = 0;
+	double a, value;
+	double n = 0;
 
 	cout << "Enter number a" << endl;
 	cin >> a;
