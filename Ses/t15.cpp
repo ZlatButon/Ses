@@ -1,4 +1,3 @@
-//Даны стороны двух треугольников. Найти сумму их площадей (использовать процедуру нахождения площади треугольника).
 #include <iostream>
 #include <math.h>
 
@@ -8,18 +7,18 @@ void task15()
 {
 	int a, b, c;
 
-	cout << "Введите первую сторону треугольника" << endl;
+	cout << "Enter the first side of the triangle" << endl;
 	cin >> a;
 
-	cout << "Введите вторую сторону треугольника" << endl;
+	cout << "Enter the second side of the triangle" << endl;
 	cin >> b;
 
-	cout << "Введите третью сторону треугольника" << endl;
+	cout << "Enter the third side of the triangle" << endl;
 	cin >> c;
 
 	double p = (a + b + c) / 2;
 
 	double s = pow(p * (p - a) * (p - b) * (p - c), 0.5);
 
-	cout << "Площадь треугольника равна " << s << endl;
+	cout << "The area of the triangle is " << s << endl;
 }
