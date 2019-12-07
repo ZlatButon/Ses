@@ -1,4 +1,3 @@
-//Дано натуральное число.Определить, какая цифра встречается чаще : 0 или 9.
 #include <iostream>
 
 using namespace std;
@@ -9,7 +8,7 @@ void task2()
 	int nine = 0;
 	int zero = 0;
 
-	cout << "Введите натуральное число" << endl;
+	cout << "enter a natural number" << endl;
 	cin >> n;
 
 	while (n > 0)
@@ -22,9 +21,9 @@ void task2()
 	}
 
 	if (nine > 0)
-		cout << "9 больше";
+		cout << "more 9";
 	else if (nine < 0)
-		cout << "0 больше";
+		cout << "more 0";
 	else
-		cout << "одинаково";
+		cout << "equally";
 }
