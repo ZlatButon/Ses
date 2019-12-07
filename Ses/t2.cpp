@@ -2,8 +2,7 @@
 
 using namespace std;
 
-void task2()
-{
+void task2() {
 	int n;
 	int nine = 0;
 	int zero = 0;
@@ -11,8 +10,7 @@ void task2()
 	cout << "enter a natural number" << endl;
 	cin >> n;
 
-	while (n > 0)
-	{
+	while (n > 0) {
 		if (n % 10 == 9)
 			nine++;
 		else if (n % 10 == 0)
