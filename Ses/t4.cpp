@@ -1,4 +1,3 @@
-//Найти все трехзначные числа, которые делятся на n или содержат цифру n (n вводится с клавиатуры)
 #include <iostream>
 
 using namespace std;
@@ -7,12 +6,12 @@ void task4()
 {
 	int n;
 
-	cout << "Введите n" << endl;
+	cout << "Enter n" << endl;
 	cin >> n;
 
 	while (n < 100 || n > 999)
 	{
-		cout << "Вы ввели не трехзначеное число" << endl;
+		cout << "this is not a three digit number" << endl;
 		cin >> n;
 	}
 
@@ -20,11 +19,11 @@ void task4()
 	{
 		if (i % n == 0)
 		{
-			cout << "Число " << i << " делится на " << n << endl;
+			cout << "number " << i << " divided by " << n << endl;
 		}
 		else
 		{
-			cout << "Число " << i << " не делится на " << n << endl;
+			cout << "number " << i << " not divided by " << n << endl;
 		}
 
 		while (i > 0)
@@ -36,11 +35,11 @@ void task4()
 
 			if (n > 0)
 			{
-				cout << "Цифра " << n << " присутствует в числе " << i << endl;
+				cout << "пїЅпїЅпїЅпїЅпїЅ " << n << " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ " << i << endl;
 			}
 			else
 			{
-				cout << "Цифра " << n << " отсутствует в числе " << i << endl;
+				cout << "пїЅпїЅпїЅпїЅпїЅ " << n << " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ " << i << endl;
 			}
 		}
 	}
