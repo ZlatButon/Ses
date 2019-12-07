@@ -5,7 +5,7 @@ using namespace std;
 
 void task5() {
 	int n;
-	int p = 0;
+	int p = { 0 };
 
 	cout << "Enter number n" << endl;
 	cin >> n;
