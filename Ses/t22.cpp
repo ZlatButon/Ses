@@ -6,7 +6,6 @@
 
 using namespace std;
 
-void task22()
-{
+void task22() {
 
 }
