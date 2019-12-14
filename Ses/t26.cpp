@@ -7,5 +7,5 @@
 using namespace std;
 
 void task26() {
-	1234
+	12345
 }
