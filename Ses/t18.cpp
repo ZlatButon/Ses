@@ -3,7 +3,6 @@
 
 using namespace std;
 
-void task18()
-{
+void task18() {
 
 }
