@@ -12,8 +12,6 @@ void task6() {
 	for (int i = 1; i < 4; i++) {
 		value = i + 1 / n;
 
-		if (n < a) {
+		if (n < a)
 			cout << value;
-		}
-	}
 }
